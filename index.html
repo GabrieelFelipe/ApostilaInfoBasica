@@ -7,19 +7,53 @@
     <title>DFtech - Curso de Informatica Básica</title>
 
     <style>
-        
+           /*Seletor de Propriedade*/
+           body{
+            background-color: #ffffff;
+
+           }
+           #topo{
+            background-color: #f45326;
+            width: 100%;
+            height: 50px;
+
+           }
+           /*Classe*/
+           .azul{
+            color:blue;
+           }
+           .verde{
+            color:green;
+           }
+           .card{
+            width:350px;
+            height:200px;
+            border:solid 3px #f45326;
+            
+           }
 
 
     </style>
 </head>
 <body>
+    
+    <div id="topo">
+
+    </div>
+
+    <h1 style="color: blue;"> Curso de Informática Básica</h1>
+
+    <p class="azul"> Nesse curso voce vai aprender os fundamentos de hardware, git, githib e programação</p>
+    <p class="verde"> Nesse curso voce vai aprender os fundamentos de hardware, git, githib e programação</p>
+
     <h1 style="color:Blue;">Curso de Informatica Básica</h1>
     <h2>Conteúdo Programático</h2>
     <h3>Módulo I- Introdução à Informática</h3>
 
     <h4 style="color:blue;">Fundamentos de hardware</h4>
     <ol>
-         <li>Definição o Evolução</li>
+         <a href="card1"></a>Definição</li> 
+         <li> Evolução</li>
          <li>Arquitetura (componentes e periféricos)</li>
          <li>Funcionamento</li>
     </ol>        
@@ -38,7 +72,7 @@
              <li>FTP</li>
              <li>SMTP</li>
          </ol>
-   <script>
+    <script>
         var msg ="Seja Bem-Vindo ao novo curso da DFTech, hoje dia "
         const dataAtual = new Date();
         const dataFormatada = dataAtual.toLocaleDateString('pt-br')
@@ -46,8 +80,13 @@
         console.log(msg+" "+dataFormatada)
     </script>
  <!--Encerramento do módulo I-->
+   
+    <div class="card">
+        <p id="card">Os fundamentos de hardware são os componentes físicos e equipamentos utilizados para construir um sistema computacional ou dispositivo eletrônico. Isso inclui a placa-mãe, processador, memória RAM, disco rígido, placa de vídeo, fonte de alimentação e periféricos. Esses componentes trabalham juntos para permitir que o sistema execute suas funções e realize tarefas. Em resumo, o hardware é a parte física do sistema, enquanto o software é a parte lógica que é executada pelo hardware.</p>
 
- <!--Início do módulo II-->
+    </div>
+          
+     <!--Início do módulo II-->
     	<h3>Módulo II - Sistemas Operacionais </h3>
 		<ol>
 			<li>Sistemas Operacionais</li>
